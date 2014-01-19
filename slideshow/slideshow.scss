@@ -1,0 +1,41 @@
+@import '../bower_components/scut/dist/scut';
+
+@include scut-reset;
+
+h1 {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+body, html, article {
+	height: 100%;
+	margin: 0;
+}
+
+section {
+	background-image: url(/slideshow/img/1.jpg);
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+section + section {
+	background-image: url(/slideshow/img/4.jpg);
+}
+
+section + section + section{
+	background-image: url(/slideshow/img/3.jpg);
+}
+
+section + section + section + section {
+	background-image: url(/slideshow/img/2.jpg);
+}
+
+
+

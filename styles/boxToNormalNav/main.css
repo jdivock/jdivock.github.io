@@ -1,0 +1,360 @@
+/*
+* Scut, a collection of Sass utilities to ease and improve our implementations of common style-code patterns.
+* v0.5.0
+* Docs at http://davidtheclark.github.io/scut
+*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \000036;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003322;
+  }
+}
+
+html *,
+html *:before,
+html *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003330;
+  }
+}
+
+html body {
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003342;
+  }
+}
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003347;
+  }
+}
+
+html b {
+  font-weight: normal;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003359;
+  }
+}
+
+html label,
+html input,
+html textarea,
+html select,
+html option,
+html button {
+  cursor: pointer;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003365;
+  }
+}
+
+html fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003370;
+  }
+}
+
+html textarea {
+  resize: vertical;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003377;
+  }
+}
+
+html button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: auto;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003393;
+  }
+}
+
+html p:first-of-type {
+  margin-top: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003396;
+  }
+}
+
+html p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000316;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000320;
+  }
+}
+
+body > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/bower_components\/scut\/dist\/_scut\.scss;
+  }
+
+  line {
+    font-family: \00003707;
+  }
+}
+
+body > ul > li {
+  display: inline-block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000324;
+  }
+}
+
+ul > li {
+  background-color: yellow;
+  position: relative;
+  width: 25%;
+  margin-left: -4px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000331;
+  }
+}
+
+ul > li > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 500%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000338;
+  }
+}
+
+ul > li > ul > li {
+  background-color: red;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+  }
+
+  line {
+    font-family: \0000344;
+  }
+}
+
+ul > li:hover > ul {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+    }
+
+    line {
+      font-family: \0000350;
+    }
+}
+
+  ul > li {
+    width: 50%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+    }
+
+    line {
+      font-family: \0000352;
+    }
+}
+
+  ul > li:nth-child(odd) {
+    clear: both;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+    }
+
+    line {
+      font-family: \0000355;
+    }
+}
+
+  ul > li:nth-child(even) ul {
+    margin-left: -100%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jdivock\/Projects\/Sandbox\/app\/boxToNormalNav\/main\.scss;
+    }
+
+    line {
+      font-family: \0000358;
+    }
+}
+
+  ul > li > ul {
+    position: static;
+    float: left;
+    width: 400%;
+  }
+}
