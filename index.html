@@ -1,23 +1,24 @@
 ---
-layout: default
+layout: none
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html>
 
-  <h1 class="page-heading">Posts</h1>
+    {% include head.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <body>
+        <article>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <h1>Jason <i class="icon-coffee"></i> Divock</h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <ul>
+                <li><a href="https://github.com/jdivock">Code.</a></li>
+                <li><a href="http://ape-shit-fuck-jacked.tumblr.com/">Lift.</a></li>
+                <li><a href="https://twitter.com/jdivock">Tweet.</a></li>
+            </ul>
 
-</div>
+        </article>
+    </body>
+
+</html>
